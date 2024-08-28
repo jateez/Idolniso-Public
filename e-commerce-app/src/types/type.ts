@@ -32,3 +32,5 @@ export type Users = User[];
 export type Products = Product[];
 
 export type Wishlists = Wishlist[];
+
+export type UserRegister = Omit<User, "_id">;
