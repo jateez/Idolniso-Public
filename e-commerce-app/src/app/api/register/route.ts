@@ -1,5 +1,4 @@
 import { z } from "zod";
-import { UserRegister } from "../../../types/type";
 import { addUser, userUniqueValidation } from "@/db/models/user";
 
 export async function GET(req: Request) {

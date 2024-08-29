@@ -44,3 +44,5 @@ export interface PropsUserForm {
   email: FormDataEntryValue | null;
   password: FormDataEntryValue | null;
 }
+
+export type AuthPayload = Omit<User, "name" | "email" | "password">;
