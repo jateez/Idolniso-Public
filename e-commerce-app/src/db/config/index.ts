@@ -11,5 +11,5 @@ export const getDBInstance = async () => {
     client = new MongoClient(connectionString);
     await client.connect();
   }
-  return client;
+  return client.db("GC02");
 };
