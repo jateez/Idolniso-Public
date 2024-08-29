@@ -1,6 +1,8 @@
+import { ObjectId } from "mongodb";
+
 export interface User {
-  _id: string;
-  name: string;
+  _id: ObjectId;
+  name?: string;
   username: string;
   email: string;
   password: string;
@@ -34,3 +36,11 @@ export type Products = Product[];
 export type Wishlists = Wishlist[];
 
 export type UserRegister = Omit<User, "_id">;
+export type UserLogin = Omit<User, "_id" | "name" | "username">;
+
+export interface PropsUserForm {
+  name: FormDataEntryValue | null;
+  username: FormDataEntryValue | null;
+  email: FormDataEntryValue | null;
+  password: FormDataEntryValue | null;
+}
