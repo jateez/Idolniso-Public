@@ -5,6 +5,9 @@ export function middleware(req: NextRequest) {
   console.log("masuk middleware");
   if (req.url.includes("/wishlist")) {
     const auth = cookies().get("Authorization");
+    
+    auth
+    
     if (!auth) {
       return NextResponse.json(
         {
