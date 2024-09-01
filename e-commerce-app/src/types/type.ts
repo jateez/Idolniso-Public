@@ -27,6 +27,7 @@ export interface Wishlist {
   productId: string;
   createdAt: string;
   updatedAt: string;
+  productData?: Product | undefined;
 }
 
 export type Users = User[];

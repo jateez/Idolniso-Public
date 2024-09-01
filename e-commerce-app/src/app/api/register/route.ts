@@ -22,18 +22,17 @@ export async function POST(req: Request) {
     }
     await userUniqueValidation(parsedData.data.email, parsedData.data.username);
     await addUser(parsedData.data);
-    return (
-      Response.json({
+    return Response.json(
+      {
         message: `Successfully created user ${parsedData.data.username}`,
         statusCode: 201,
-      }),
+      },
       {
         status: 201,
       }
     );
   } catch (err) {
     if (err instanceof z.ZodError) {
-      console.log(err.issues[0].path[0], err.issues[0].message, "<< ERR DI SERVER");
       return Response.json(
         {
           message: `${err.issues[0].path[0]} ${err.issues[0].message} `,
@@ -55,7 +54,7 @@ export async function POST(req: Request) {
             status: 404,
           }
         );
-      } else if ((err.cause = "USERNAME_UNIQUE_CONSTRAINT")) {
+      } else if ((err.cause = "EMAIL_UNIQUE_CONSTRAINT")) {
         return Response.json(
           {
             message: err.message,

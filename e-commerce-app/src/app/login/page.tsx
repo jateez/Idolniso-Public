@@ -3,7 +3,7 @@ import Image from "next/image";
 import kpopLogo from "@/assets/kpop.png";
 import { ChangeEvent, FormEvent, useState } from "react";
 import { API_BASE_URL } from "@/lib/constants";
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/router";
 import Link from "next/link";
 
 export default function Login() {
@@ -40,14 +40,16 @@ export default function Login() {
       if (!res.ok) {
         throw new Error(result.message);
       }
-      router.push("/");
+      router.push("/").then(() => {
+        router.reload();
+      });
     } catch (err) {
       console.log(err);
     }
   };
 
   return (
-    <div className="h-screen">
+    <main className="bg-base-100 min-h-[calc(100vh-128px)]">
       <div className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <Image className="mx-auto sm:w-full sm:max-w-sm" src={kpopLogo} alt="kpop icon logo" width={150} height={150} />
@@ -106,6 +108,6 @@ export default function Login() {
           </p>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

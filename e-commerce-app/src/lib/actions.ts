@@ -1,3 +1,5 @@
+"use server";
+
 import { API_BASE_URL } from "./constants";
 import { AuthPayload, PropsUserForm } from "../types/type";
 import { cookies } from "next/headers";
@@ -12,14 +14,14 @@ export const registerUser = async (rawUserForm: PropsUserForm) => {
   });
 };
 
-export const createCookie = async (token: string): Promise<void> => {
-  cookies().set("Authorization", token, { secure: true });
+export const createCookie = (token: string) => {
+  cookies().set("Authorization", "Bearer " + token);
 };
 
-export const deleteCookie = async (): Promise<void> => {
+export const deleteCookie = () => {
   cookies().delete("Authorization");
 };
 
-export const getCookie = async () => {
+export const getCookie = () => {
   return cookies().get("Authorization");
 };

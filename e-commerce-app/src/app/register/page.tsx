@@ -43,14 +43,14 @@ export default function Register() {
         throw new Error(result.message);
       }
 
-      router.push("/");
+      router.push("/login");
     } catch (err) {
       console.error("Registration error:", err);
     }
   };
 
   return (
-    <div className="h-screen">
+    <main className="bg-base-100 min-h-[calc(100vh-128px)]">
       <div className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <Image className="mx-auto sm:w-full sm:max-w-sm" src={kpopLogo} alt="kpop icon logo" width={150} height={150} />
@@ -136,6 +136,6 @@ export default function Register() {
           </p>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

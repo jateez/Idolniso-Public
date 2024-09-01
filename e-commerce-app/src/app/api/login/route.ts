@@ -1,6 +1,6 @@
 import { signToken } from "@/db/helpers/jwt";
 import { login } from "@/db/models/user";
-import { createCookie } from "@/lib/actions";
+import { cookies } from "next/headers";
 import { z } from "zod";
 
 export async function POST(req: Request) {
@@ -21,9 +21,13 @@ export async function POST(req: Request) {
 
     const access_token = signToken(loggedUser);
 
-    createCookie(access_token);
+    cookies().set("Authorization", "Bearer " + access_token);
     return Response.json({ access_token, statusCode: 200 }, { status: 200 });
   } catch (err) {
     console.log(err);
+    if (err instanceof Error) {
+      return Response.json({ message: err.message, cause: err.cause }, { status: 400 });
+    }
+    return Response.json({ message: "An unexpected error occurred" }, { status: 500 });
   }
 }

@@ -1,0 +1,303 @@
+{
+  "users": [],
+  "wishlist": [],
+  "products": [
+    {
+      "name": "TWICE Formula of Love: O+T=<3",
+      "slug": "twice-formula-of-love",
+      "description": "TWICE's 2021 album 'Formula of Love: O+T=<3' explores themes of love and self-discovery with catchy tracks like 'SCIENTIST' and 'Love is a Science' that showcase their signature pop sound.",
+      "excerpt": "TWICE's 2021 album featuring 'SCIENTIST'.",
+      "price": 3099000,
+      "tags": ["album", "K-Pop", "photobook"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b273d1961ecb307c9e05ec8f7e82",
+      "images": [
+        "https://i.scdn.co/image/ab67616d0000b273d1961ecb307c9e05ec8f7e82",
+        "https://upload.wikimedia.org/wikipedia/en/8/8e/Twice_-_Formula_of_Love.png",
+        "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_tbNkhr0xD6yT2OvccnPZMo4WzmlLbrrXkrLCfXD-Ux1hnblOtXBMVCWWzL4QhddxLOzwg_V2LN3zP01WtJv1iGvBJJYZS3UfuHiAtaYvTZo8r8Qs0Qn0nSX2x4OuKJ_kVkAoQX55nJcy2rBosGB6w=w919-h516-p-k-no-nu"
+      ],
+      "createdAt": "2023-10-12T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "aespa Savage",
+      "slug": "aespa-savage",
+      "description": "aespa's first mini album 'Savage' features a bold and innovative sound, characterized by the title track 'Next Level'. This album reflects the group's unique blend of pop and hip-hop influences.",
+      "excerpt": "aespa's first mini album featuring 'Next Level'.",
+      "price": 5249399,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b273d8cc2281fcd4519ca020926b",
+      "images": ["https://i.scdn.co/image/ab67616d0000b273d8cc2281fcd4519ca020926b", "https://www.koreandae.com/image-product/img4118-1634641540.jpg"],
+      "createdAt": "2023-10-12T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "NMIXX Ad Mare",
+      "slug": "nmixx-ad-mare",
+      "description": "NMIXX's debut mini album 'Ad Mare' features a vibrant mix of styles and genres, with the title track 'O.O' showcasing their versatility and fresh sounds in the K-pop industry.",
+      "excerpt": "NMIXX's debut album with the title track 'O.O'.",
+      "price": 3499000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b27386ca91e718866f411c01db5e",
+      "images": ["https://i.scdn.co/image/ab67616d0000b27386ca91e718866f411c01db5e", "https://kr.ktown4u.com/goods_files/SH0164/goods_images/000075/GD00074212.default.1.png"],
+      "createdAt": "2023-10-12T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "IVE LOVE DIVE",
+      "slug": "ive-love-dive",
+      "description": "IVE's first single album 'LOVE DIVE' has a catchy song of the same name that captures the fresh and confident vibe of young love, making it an essential addition to any K-pop collection.",
+      "excerpt": "IVE's single album featuring the hit 'LOVE DIVE'.",
+      "price": 2899000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b2739016f58cc49e6473e1207093",
+      "images": [
+        "https://i.scdn.co/image/ab67616d0000b2739016f58cc49e6473e1207093",
+        "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/4/10/9ffc38a7-17c5-4c71-a693-1651e860f768.jpg",
+        "https://images-cdn.ubuy.co.id/633fd479ed7b7c00c56cc112-starship-entertainment-ive-love-dive.jpg"
+      ],
+      "createdAt": "2023-10-12T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "SEVENTEEN Face the Sun",
+      "slug": "seventeen-face-the-sun",
+      "description": "SEVENTEEN's fourth studio album 'Face the Sun' combines various music styles and themes, featuring the powerful title track 'HOT'. This album showcases their growth and versatility as artists.",
+      "excerpt": "SEVENTEEN's fourth album featuring 'HOT'.",
+      "price": 4999000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b273decd839dd4fef3faf64c5fd5",
+      "images": ["https://i.scdn.co/image/ab67616d0000b273decd839dd4fef3faf64c5fd5", "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/5/26/6b82a9f6-0b25-4891-8c04-fe57613d2cba.jpg"],
+      "createdAt": "2023-10-12T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "BLACKPINK The Album",
+      "slug": "blackpink-the-album",
+      "description": "BLACKPINK's first full studio album 'The Album' features a unique blend of musical styles and popular tracks like 'How You Like That', showcasing their evolution as a group.",
+      "excerpt": "BLACKPINK's debut full album featuring various hit tracks.",
+      "price": 3999000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b2731895052324f123becdd0d53d",
+      "images": ["https://i.scdn.co/image/ab67616d0000b2731895052324f123becdd0d53d", "https://down-id.img.susercontent.com/file/fc4fe7ed16f1751235115128ad4d03c8"],
+      "createdAt": "2023-10-12T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "Red Velvet The ReVe Festival: Finale",
+      "slug": "red-velvet-reve-festival-finale",
+      "description": "Red Velvet's 'The ReVe Festival: Finale' rounds off the ReVe trilogy, featuring the hit single 'Psycho' and a collection of their best works, marking a significant moment in their career.",
+      "excerpt": "Red Velvet's festival trilogy finale featuring 'Psycho'.",
+      "price": 3199000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b273df5022bdf1ac4bf52135c4be",
+      "images": ["https://i.scdn.co/image/ab67616d0000b273df5022bdf1ac4bf52135c4be", "https://pbs.twimg.com/media/EMdhZkUU4AESwly.jpg"],
+      "createdAt": "2023-10-12T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "LE SSERAFIM Fearless",
+      "slug": "le-sserafim-fearless",
+      "description": "LE SSERAFIM's debut mini album 'Fearless' delivers a confident and vibrant sound, with the title track 'Fearless' expressing themes of empowerment and independence.",
+      "excerpt": "LE SSERAFIM's debut album showcasing confidence.",
+      "price": 2899000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b2739030184114911536d5f77555",
+      "images": ["https://i.scdn.co/image/ab67616d0000b2739030184114911536d5f77555", "https://i.scdn.co/image/ab67616d00001e02d71fd77b89d08bc1bda219c7"],
+      "createdAt": "2023-10-12T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "BABYMONSTER Part 1",
+      "slug": "babymonster-part-1",
+      "description": "BABYMONSTER's first part of their official album showcases their fresh concepts and vibrant music styles, designed to appeal to both K-pop fans and new listeners.",
+      "excerpt": "BABYMONSTER's first installment featuring fresh concepts.",
+      "price": 2499000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab6761610000e5ebc88257a512bc6cec18b7bc12",
+      "images": ["https://i.scdn.co/image/ab6761610000e5ebc88257a512bc6cec18b7bc12", "https://i.scdn.co/image/ab67616d0000b273da2028348097f05b50319402"],
+      "createdAt": "2023-10-12T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "BTS - Proof",
+      "slug": "bts-proof",
+      "description": "BTS's anthology album 'Proof' features a collection of their greatest hits along with three new tracks. This album encapsulates their journey and evolution as artists.",
+      "excerpt": "BTS's anthology album featuring their journey.",
+      "price": 4600000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b27317db30ce3f081d6818a8ad49",
+      "images": ["https://i.scdn.co/image/ab67616d0000b27317db30ce3f081d6818a8ad49"],
+      "createdAt": "2023-10-15T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "Stray Kids - NOEASY",
+      "slug": "stray-kids-noeasy",
+      "description": "Stray Kids' second studio album 'NOEASY' features energetic tracks including 'Thunderous' and showcases their powerful sound and impressive songwriting.",
+      "excerpt": "Stray Kids' album featuring the hit 'Thunderous'.",
+      "price": 2999000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b2731843897a2a72dd5036bbb1fc",
+      "images": ["https://i.scdn.co/image/ab67616d0000b2731843897a2a72dd5036bbb1fc"],
+      "createdAt": "2023-10-15T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "NCT 127 - Sticker",
+      "slug": "nct127-sticker",
+      "description": "NCT 127's third studio album 'Sticker' features a diverse range of genres with the title track 'Sticker' offering a catchy blend of pop sounds.",
+      "excerpt": "NCT 127's album featuring the title track 'Sticker'.",
+      "price": 3899000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b273b490993919b0c4c0dab29b17",
+      "images": ["https://i.scdn.co/image/ab67616d0000b273b490993919b0c4c0dab29b17"],
+      "createdAt": "2023-10-15T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "GOT7 - Breath of Love: Last Piece",
+      "slug": "got7-breath-of-love",
+      "description": "GOT7's special album 'Breath of Love: Last Piece' features melodies that resonate deeply. The title track 'Last Piece' expresses themes of love and longing.",
+      "excerpt": "GOT7's special album featuring heartwarming songs.",
+      "price": 2599000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b27386bd6660dbb30bd3680edfb4",
+      "images": ["https://i.scdn.co/image/ab67616d0000b27386bd6660dbb30bd3680edfb4"],
+      "createdAt": "2023-10-15T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "TXT - The Chaos Chapter: FREEZE",
+      "slug": "txt-chaos-chapter-freeze",
+      "description": "TXT's album 'The Chaos Chapter: FREEZE' combines youthful themes with existential reflections. The title track '0X1=LOVESONG' features a unique sound that embodies their creative evolution.",
+      "excerpt": "TXT's album highlighting their creative evolution.",
+      "price": 3099000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b273253a9c74941281b0407ce940",
+      "images": ["https://i.scdn.co/image/ab67616d0000b273253a9c74941281b0407ce940"],
+      "createdAt": "2023-10-15T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "ITZY - CRAZY IN LOVE",
+      "slug": "itzy-crazy-in-love",
+      "description": "ITZY's first full album 'CRAZY IN LOVE' features energetic tracks like 'Loco', emphasizing their bold and confident style in K-Pop.",
+      "excerpt": "ITZY's first full album featuring 'Loco'.",
+      "price": 2899000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b2737cba267dc81d036a71f46a3a",
+      "images": ["https://i.scdn.co/image/ab67616d0000b2737cba267dc81d036a71f46a3a"],
+      "createdAt": "2023-10-15T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "ATEEZ - ZERO: FEVER PART.3",
+      "slug": "ateez-zero-fever-part3",
+      "description": "ATEEZ's album 'ZERO: FEVER PART.3' continues their narrative of self-discovery and adventure, featuring powerful tracks that highlight their vocal and performance abilities.",
+      "excerpt": "ATEEZ's album emphasizing themes of adventure and growth.",
+      "price": 3450000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b2733714e924e5570c4d2df97e09",
+      "images": ["https://i.scdn.co/image/ab67616d0000b2733714e924e5570c4d2df97e09"],
+      "createdAt": "2023-10-15T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "TWICE - Taste of Love",
+      "slug": "twice-taste-of-love",
+      "description": "TWICE's 10th mini album 'Taste of Love' was released in 2021 and features the hit single 'Alcohol-Free'. The album showcases a bright and fresh summer sound with engaging melodies.",
+      "excerpt": "TWICE's 10th mini album featuring 'Alcohol-Free'.",
+      "price": 2899000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b273feede28e85bb57807a272a2b",
+      "images": [
+        "https://i.scdn.co/image/ab67616d0000b273feede28e85bb57807a272a2b",
+        "https://i.scdn.co/image/ab67706f0000000209fa4b55a072ba39ca9d5ecf",
+        "https://images.tokopedia.net/img/cache/700/VqbcmM/2022/9/13/ebf88f89-7239-4859-8bae-faa543814b62.jpg"
+      ],
+      "createdAt": "2023-10-12T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "Red Velvet - The Perfect Red Velvet",
+      "slug": "red-velvet-perfect-red-velvet",
+      "description": "Red Velvet's first compilation album, 'The Perfect Red Velvet', includes their greatest hits and iconic tracks such as 'Psycho' and 'Red Flavor'. This album celebrates their unique sound and versatility.",
+      "excerpt": "Red Velvet's compilation album celebrating their hits.",
+      "price": 2999000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d00001e02b64001fa6292caefc7605550",
+      "images": ["https://i.scdn.co/image/ab67616d00001e02b64001fa6292caefc7605550"],
+      "createdAt": "2023-10-12T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "aespa - Girls",
+      "slug": "aespa-girls",
+      "description": "aespa's first full album 'Girls' features a distinct mix of genres and the title track 'Girls'. This album solidifies their place in the K-Pop landscape with innovative sounds and themes.",
+      "excerpt": "aespa's first full album featuring the title track 'Girls'.",
+      "price": 3999000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/id/5/59/Aespa_-_Girls.png",
+      "images": ["https://upload.wikimedia.org/wikipedia/id/5/59/Aespa_-_Girls.png"],
+      "createdAt": "2023-10-12T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "Red Velvet - RBB (Revelbee)",
+      "slug": "red-velvet-rbb",
+      "description": "Red Velvet's sixth mini album 'RBB (Revelbee)' features the title track 'RBB' and showcases their signature blend of vibrant pop and sultry R&B.",
+      "excerpt": "Red Velvet's mini album featuring the smooth 'RBB'.",
+      "price": 2899000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b2732270d3bd1d13133edf0be836",
+      "images": ["https://i.scdn.co/image/ab67616d0000b2732270d3bd1d13133edf0be836"],
+      "createdAt": "2023-10-12T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "NewJeans - New Jeans",
+      "slug": "newjeans-new-jeans",
+      "description": "NewJeans' self-titled debut EP features a fresh sound that blends various genres, with the hit single 'Attention' showcasing their unique style and approach to K-Pop.",
+      "excerpt": "NewJeans' debut album featuring the hit 'Attention'.",
+      "price": 2499000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b2739d28fd01859073a3ae6ea209",
+      "images": [
+        "https://i.scdn.co/image/ab67616d0000b2739d28fd01859073a3ae6ea209",
+        "https://i1.sndcdn.com/artworks-rhj9rKr6PGJe3JnM-ykIjEA-t500x500.jpg",
+        "https://awsimages.detik.net.id/community/media/visual/2022/07/22/newjeans-3_43.jpeg?w=1200"
+      ],
+      "createdAt": "2023-10-10T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+    {
+      "name": "NewJeans - OMG",
+      "slug": "newjeans-omg",
+      "description": "NewJeans' second EP 'OMG' features the popular title track 'OMG' alongside other catchy songs, continuing their trend of innovative concepts and refreshing melodies.",
+      "excerpt": "NewJeans' EP featuring the hit 'OMG'.",
+      "price": 2499000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh9FWsflLt7biNNZ8rr_mUmSqczX6vl4FHOg&s",
+      "images": [
+        "https://i.scdn.co/image/ab67616d0000b273edf5b257be1d6593e81bb45f",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREjiAjgEVRhSzCBD-WBopy6VT8UN-HwKyevw&s",
+        "https://upload.wikimedia.org/wikipedia/id/1/10/NewJeans_OMG_cover.jpg"
+      ],
+      "createdAt": "2023-10-10T15:32:06.350Z",
+      "updatedAt": "2024-03-18T14:47:12.101Z"
+    },
+
+    {
+      "name": "NewJeans - Supernatural",
+      "slug": "newjeans-supernatural",
+      "description": "NewJeans' latest EP 'Supernatural' showcases their captivating sound and fresh concepts. The EP includes the title track 'Supernatural' and other captivating songs.",
+      "excerpt": "NewJeans' latest EP 'Supernatural'",
+      "price": 2499000,
+      "tags": ["album", "K-Pop"],
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b2737e1eeb0d7cc374a168369c80",
+      "images": ["https://i.scdn.co/image/ab67616d0000b2737e1eeb0d7cc374a168369c80", "https://www.koreandae.com/image-product/img4927-1715355801.jpg"],
+      "createdAt": "2024-06-20T00:00:00Z",
+      "updatedAt": "2024-08-31T15:43:00Z"
+    }
+  ]
+}
