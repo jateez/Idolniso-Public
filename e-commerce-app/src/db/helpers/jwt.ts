@@ -1,7 +1,7 @@
 import * as jose from "jose";
 import jwt, { JwtPayload } from "jsonwebtoken";
 
-const SECRET_KEY: string = process.env.NEXT_PUBLIC_JWT_SECRET as string;
+const SECRET_KEY: string = process.env.JWT_SECRET as string;
 
 export const signToken = (payload: JwtPayload) => jwt.sign(payload, SECRET_KEY);
 
