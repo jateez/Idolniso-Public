@@ -1,6 +1,7 @@
 import { API_BASE_URL } from "@/lib/constants";
 import WishlistList from "../../components/Wishlists";
 import { cookies } from "next/headers";
+import { toast } from "react-toastify";
 export default async function Wishlist() {
   const res = await fetch(`${API_BASE_URL}/wishlist`, {
     headers: {
@@ -9,7 +10,16 @@ export default async function Wishlist() {
   });
   const result = await res.json();
   if (!res.ok) {
-    console.log(result.message);
+    toast.error(`${result.message}`, {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
   }
   return (
     <main className="flex flex-col min-h-[calc(100vh-64px)] items-center justify-between p-24 gap-y-5">

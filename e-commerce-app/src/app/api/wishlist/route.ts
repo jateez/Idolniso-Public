@@ -31,7 +31,24 @@ export async function POST(req: Request) {
     const newWishlist = await addWishlist(userId, data.productId);
     return Response.json({ message: "successfully added product to wishlists", data: newWishlist }, { status: 200 });
   } catch (err) {
-    console.log(err);
+    if (err instanceof z.ZodError) {
+      return Response.json(
+        {
+          message: `${err.issues[0].path[0]} ${err.issues[0].message} `,
+          statusCode: 400,
+        },
+        {
+          status: 400,
+        }
+      );
+    }
+    if (err instanceof Error) {
+      if (err.cause === "DATA_NOT_FOUND") {
+        return Response.json({ message: err.message, cause: err.cause }, { status: 404 });
+      }
+      return Response.json({ message: err.message, cause: err.cause }, { status: 400 });
+    }
+    return Response.json({ message: "Internal Server Error", statusCode: 500 }, { status: 500 });
   }
 }
 
@@ -55,6 +72,20 @@ export async function DELETE(req: Request) {
     await removeWishlist(userId, data.productId);
     return Response.json({ message: "successfully remove item from wishlists" }, { status: 200 });
   } catch (err) {
-    console.log(err);
+    if (err instanceof z.ZodError) {
+      return Response.json(
+        {
+          message: `${err.issues[0].path[0]} ${err.issues[0].message} `,
+          statusCode: 400,
+        },
+        {
+          status: 400,
+        }
+      );
+    }
+    if (err instanceof Error) {
+      return Response.json({ message: err.message, cause: err.cause }, { status: 400 });
+    }
+    return Response.json({ message: "Internal Server Error", statusCode: 500 }, { status: 500 });
   }
 }

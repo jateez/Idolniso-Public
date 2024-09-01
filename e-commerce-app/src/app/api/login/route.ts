@@ -24,10 +24,20 @@ export async function POST(req: Request) {
     cookies().set("Authorization", "Bearer " + access_token);
     return Response.json({ access_token, statusCode: 200 }, { status: 200 });
   } catch (err) {
-    console.log(err);
+    if (err instanceof z.ZodError) {
+      return Response.json(
+        {
+          message: `${err.issues[0].path[0]} ${err.issues[0].message} `,
+          statusCode: 400,
+        },
+        {
+          status: 400,
+        }
+      );
+    }
     if (err instanceof Error) {
       return Response.json({ message: err.message, cause: err.cause }, { status: 400 });
     }
-    return Response.json({ message: "An unexpected error occurred" }, { status: 500 });
+    return Response.json({ message: "Internal Server Error", statusCode: 500 }, { status: 500 });
   }
 }

@@ -3,6 +3,7 @@
 import { API_BASE_URL } from "@/lib/constants";
 import { useRouter } from "next/router";
 import { MouseEvent } from "react";
+import { toast } from "react-toastify";
 
 export default function WishlistButton({ productId }: { productId: string }) {
   async function handlerFavorite(e: MouseEvent<HTMLButtonElement>) {
@@ -22,8 +23,27 @@ export default function WishlistButton({ productId }: { productId: string }) {
       if (!res.ok) {
         throw new Error(result.message);
       }
+      toast.success("Success added item to wishlist", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
     } catch (err) {
-      console.log(err);
+      toast.error(`${err}`, {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
     }
   }
   return (

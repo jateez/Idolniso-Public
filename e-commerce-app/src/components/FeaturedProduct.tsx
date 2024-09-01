@@ -2,12 +2,22 @@ import ProductCard from "@/components/ProductCard";
 import Link from "next/link";
 import { Product } from "@/types/type";
 import { API_BASE_URL } from "@/lib/constants";
+import { toast } from "react-toastify";
 
 export default async function FeaturedProduct() {
   const res = await fetch(API_BASE_URL + "/products");
   const result = await res.json();
   if (!res.ok) {
-    console.log(result.message);
+    toast.error(`${result.message}`, {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
   }
   const data = result.products.slice(0, 5);
   return (

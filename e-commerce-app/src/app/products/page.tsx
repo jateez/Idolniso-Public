@@ -4,6 +4,7 @@ import Search from "@/components/ui/Search";
 import { API_BASE_URL } from "@/lib/constants";
 import { Product } from "@/types/type";
 import { useCallback, useEffect, useState } from "react";
+import { toast } from "react-toastify";
 
 function useDebounce<T>(value: T, delay: number): T {
   const [debouncedValue, setDebouncedValue] = useState<T>(value);
@@ -36,7 +37,16 @@ export default function Products() {
       }
       setHasMore(result.currentPage < result.totalPages);
     } catch (err) {
-      console.log(err);
+      toast.error(`${err}`, {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
     }
   }, [debouncedSearch, sort, page]);
 

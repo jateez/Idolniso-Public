@@ -3,8 +3,9 @@ import Image from "next/image";
 import kpopLogo from "@/assets/kpop.png";
 import { ChangeEvent, FormEvent, useState } from "react";
 import { API_BASE_URL } from "@/lib/constants";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { toast } from "react-toastify";
 
 export default function Login() {
   const router = useRouter();
@@ -40,11 +41,19 @@ export default function Login() {
       if (!res.ok) {
         throw new Error(result.message);
       }
-      router.push("/").then(() => {
-        router.reload();
-      });
+      router.push("/");
+      router.refresh();
     } catch (err) {
-      console.log(err);
+      toast.error(`${err}`, {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
     }
   };
 

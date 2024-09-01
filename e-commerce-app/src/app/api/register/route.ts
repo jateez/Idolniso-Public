@@ -36,10 +36,10 @@ export async function POST(req: Request) {
       return Response.json(
         {
           message: `${err.issues[0].path[0]} ${err.issues[0].message} `,
-          statusCode: 404,
+          statusCode: 400,
         },
         {
-          status: 404,
+          status: 400,
         }
       );
     }
@@ -48,20 +48,20 @@ export async function POST(req: Request) {
         return Response.json(
           {
             message: err.message,
-            statusCode: 404,
+            statusCode: 400,
           },
           {
-            status: 404,
+            status: 400,
           }
         );
       } else if ((err.cause = "EMAIL_UNIQUE_CONSTRAINT")) {
         return Response.json(
           {
             message: err.message,
-            statusCode: 404,
+            statusCode: 400,
           },
           {
-            status: 404,
+            status: 400,
           }
         );
       }

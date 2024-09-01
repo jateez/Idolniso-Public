@@ -1,6 +1,7 @@
 import WishlistButton from "@/components/ui/WishlistButton";
 import { API_BASE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
+import { toast } from "react-toastify";
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const slug = params.slug;
@@ -29,8 +30,16 @@ export default async function ProductDetail({ params }: { params: { slug: string
   const res = await fetch(API_BASE_URL + "/products/" + slug);
   const result = await res.json();
   if (!res.ok) {
-    console.log(result.message);
-    return <div>Failed to load product</div>;
+    toast.error(`${result.message}`, {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
   }
   const data = result.product;
 

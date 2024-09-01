@@ -8,8 +8,9 @@ export default function Logout() {
   const router = useRouter();
   async function handlerLogOut(e: MouseEvent<HTMLButtonElement>) {
     e.preventDefault();
-    await deleteCookie();
+    deleteCookie();
     router.push("/");
+    router.refresh();
   }
   return (
     <>
